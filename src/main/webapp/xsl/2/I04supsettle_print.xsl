@@ -22,11 +22,11 @@
 		<hr></hr>
 		<xsl:for-each select="body5">
 			<xsl:call-template name="output_body5" />
-            <hr></hr>
-			<xsl:call-template name="output_body6" />
 		</xsl:for-each>
 		<hr></hr>
-
+		<xsl:for-each select="body6">
+			<xsl:call-template name="output_body6" />
+		</xsl:for-each>
 	</xsl:template>
 	<xsl:template name="output_head">
 		<center>
@@ -440,7 +440,7 @@
 			<xsl:for-each select="row">
 				<tr>
 					<td>
-						<xsl:value-of select="mrid" />
+
 					</td>
 					<td>
 						<xsl:value-of select="maid" />
@@ -458,7 +458,7 @@
 						<xsl:value-of select="format-number(money,'#0.00')" />
 					</td>
 					<td>
-						<xsl:value-of select="note" />
+
 					</td>
 				</tr>
 			</xsl:for-each>

@@ -18,6 +18,7 @@ public class Supsettle extends SheetService {
     String sql4Body2;
     String sql4Body4;
     String sql4Body5;
+    String sql4Body6;
 
     public Supsettle(Connection conn, Token token, String cmid) {
         super(conn, token, cmid, 3020210, "3020210001", "3020210002", tableName);
@@ -27,6 +28,7 @@ public class Supsettle extends SheetService {
         sql4Body2 = SqlMapLoader.getInstance().getSql(sid, 3020210003L).toString();
         sql4Body4 = SqlMapLoader.getInstance().getSql(sid, 3020210004L).toString();
         sql4Body5 = SqlMapLoader.getInstance().getSql(sid, 3020210005L).toString();
+        sql4Body6 = SqlMapLoader.getInstance().getSql(sid, 3020210006L).toString();
     }
 
     public Filter cookFilter(Map parms) {
@@ -111,6 +113,7 @@ public class Supsettle extends SheetService {
         elm_sheet.addContent(SqlUtil.getRowSetElement(conn, sql4Body2, new Object[]{id}, "body2"));
         elm_sheet.addContent(SqlUtil.getRowSetElement(conn, sql4Body4, new Object[]{id}, "body4"));
         elm_sheet.addContent(SqlUtil.getRowSetElement(conn, sql4Body5, new Object[]{id}, "body5"));
+        elm_sheet.addContent(SqlUtil.getRowSetElement(conn, sql4Body6, new Object[]{id}, "body6"));
         return elm_sheet;
     }
 
