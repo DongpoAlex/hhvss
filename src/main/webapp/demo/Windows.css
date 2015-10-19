@@ -1,0 +1,92 @@
+.Windows {
+	border: 1px solid #74D116;
+	font-size: 12px;
+	background: #F0FFE8;
+	position: absolute;
+	height: auto;
+	width: auto;
+	visibility: visible;
+}
+
+.WindowsShadow {
+	BACKGROUND: #003955;
+	FILTER: progid:DXImageTransform.Microsoft.Blur(pixelRadius=6, makeShadow=true,
+		shadowOpacity=0.20);
+	LEFT: -2px;
+	WIDTH: 100%;
+	POSITION: absolute;
+	TOP: -2px;
+	HEIGHT: 100%
+}
+
+.WindowsGlass {
+	BACKGROUND: #e0f8c0;
+	FILTER: alpha(opacity = 100, style = 1, finishOpacity = 50, startx = 60, starty
+		= 50, finishx = 20, finishy = 70)
+		alpha(opacity = 50, style = 1, finishOpacity = 100, startx = 100, starty
+		= 50, finishx = 60, finishy = 70);
+	LEFT: 0px;
+	WIDTH: 100%;
+	POSITION: absolute;
+	TOP: 0px;
+	HEIGHT: 100%
+}
+
+.WindowsMin {
+	float: right;
+	color: #003300;
+}
+
+.WindowsClose {
+	color: #003300;
+	float: right;
+}
+
+.WindowsTitle {
+	FONT-WEIGHT: bold;
+	LEFT: 0px;
+	WIDTH: 100%;
+	CURSOR: move;
+	COLOR: #66CC66;
+	POSITION: absolute;
+	TOP: 0px;
+	HEIGHT: 16px;
+	text-align: left;
+	padding: 4px 2px 2px 25px;
+	z-index: 888;
+	background: url(../images/small/h_host.gif) no-repeat 7px 4px;
+}
+
+.WindowsBorder {
+	LEFT: 0px;
+	WIDTH: 100%;
+	POSITION: absolute;
+	TOP: 0px;
+	HEIGHT: 100%;
+	border: 1px solid #e0f8c0;
+	padding: 18px 4px 4px;
+}
+
+.WindowsContent {
+	BACKGROUND: white;
+	FILTER: alpha(opacity = 70);
+	OVERFLOW: auto;
+	WIDTH: 100%;
+	CURSOR: default;
+	HEIGHT: 78%;
+	padding: 4px;
+	text-align: left;
+	color: #333300;
+}
+
+.WindowsBotton {
+	WIDTH: 100%;
+	HEIGHT: 22%;
+	text-align: center;
+	padding-top: 4px;
+}
+
+.WindowsBotton INPUT {
+	margin-left: 10px;
+	margin-right: 10px
+}

@@ -1,0 +1,65 @@
+@CHARSET "UTF-8";
+
+TABLE {
+	border-style: solid;
+	border-color: #fff;
+	font-size: 12px;
+}
+
+td {
+	background-color: #fff;
+	font-size: 12px;
+}
+
+.needed {
+	color: orange;
+	text-algin: right;
+}
+
+#rules {
+	cursor: pointer;
+	margin-left: 20px;
+	color: green;
+}
+
+select {
+	width: 150px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;;
+	border-left-color: #999;;
+	border-top-color: #999;
+}
+
+#grid {
+	width: 100%;;
+	height: 200px;
+}
+
+.aw-grid-cell {
+	border-right: 1px solid threedshadow;
+}
+
+.aw-grid-row {
+	border-bottom: 1px solid threedlightshadow;
+}
+
+#grid .aw-column-0 {
+	width: 100px;
+}
+
+#grid .aw-column-6 {
+	display: none;
+}
+
+#grid .aw-column-7 {
+	display: none;
+}
+
+.input {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ddd;;
+	border-left-color: #999;;
+	border-top-color: #999;
+}

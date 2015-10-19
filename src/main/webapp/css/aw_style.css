@@ -1,0 +1,230 @@
+body {
+	SCROLLBAR-FACE-COLOR: #eee8d8;
+	SCROLLBAR-ARROW-COLOR: #d8906c;
+	SCROLLBAR-DARKSHADOW-COLOR: #C0A96D;
+	SCROLLBAR-3DLIGHT-COLOR: #dfd3b4;
+	font-size: 12px;
+	background-color: #F9F8F4;
+	padding-left: 12px;
+}
+
+A {
+	text-decoration: none;
+	color: #003399
+}
+
+A:hover {
+	TEXT-DECORATION: underline
+}
+
+TABLE {
+	FONT: 12px Tahoma, Verdana;
+	COLOR: #000
+}
+
+.tablecolorborder {
+	BORDER-RIGHT: threedlightshadow 1px solid;
+	BORDER-TOP: threedlightshadow 1px solid;
+	BACKGROUND: #F9F8F4;
+	BORDER-LEFT: threedlightshadow 1px solid;
+	BORDER-BOTTOM: threedlightshadow 1px solid;
+}
+
+.tableheader {
+	border: 2px solid;
+	border-color: #f2f1e2 #e2decd #e2decd #ebeadb;
+	background: #ebeadb;
+	padding: 0px 6px 2px 0px;
+	background-image: url("runtime/styles/xp/tabs.png");
+}
+
+Input {
+	BORDER-RIGHT: #7F9DB9 1px solid;
+	BORDER-TOP: #7F9DB9 1px solid;
+	BORDER-LEFT: #7F9DB9 1px solid;
+	BORDER-BOTTOM: #7F9DB9 1px solid;
+	border-width: 1;
+	FONT: 11px Tahoma, Verdana;
+	COLOR: #000;
+	BACKGROUND-COLOR: #FFFFFF;
+}
+
+TEXTAREA {
+	BORDER-RIGHT: #7F9DB9 1px solid;
+	BORDER-TOP: #7F9DB9 1px solid;
+	BORDER-LEFT: #7F9DB9 1px solid;
+	BORDER-BOTTOM: #7F9DB9 1px solid;
+	FONT: 11px Tahoma, Verdana;
+	COLOR: #000;
+	BACKGROUND-COLOR: #ffffff;
+}
+
+SELECT {
+	FONT: 11px Arial, Tahoma;
+	COLOR: #000;
+	BACKGROUND-COLOR: #ffffff
+}
+
+.nav {
+	FONT: bold 12px Tahoma, Verdana;
+	COLOR: #333333
+}
+
+.nav A {
+	COLOR: #333333
+}
+
+.header {
+	FONT: bold 11px Tahoma, Verdana;
+	COLOR: #000;
+	BACKGROUND-COLOR: #F9F8F4
+}
+
+.header A {
+	COLOR: #333333
+}
+
+.singleborder {
+	border: 2px double;
+	border-color: threedlightshadow;
+	background: #ebeadb;
+	padding: 6px;
+}
+
+.whiteborder {
+	border: 2px double;
+	border-color: white;
+	background: white;
+	padding: 6px;
+}
+
+.smalltxt {
+	FONT: 11px Arial, Tahoma
+}
+
+.outertxt {
+	FONT: 12px Tahoma, Verdana;
+	COLOR: #333333
+}
+
+.outertxt A {
+	COLOR: #333333
+}
+
+.bold {
+	FONT-WEIGHT: bold
+}
+
+.altbg1 {
+	BACKGROUND: #ffffff
+}
+
+.altbg2 {
+	BACKGROUND: #F9F8F4;
+	BORDER-RIGHT: threedlightshadow 1px solid;
+}
+
+.altbg3 {
+	BACKGROUND: #FFFFEE
+}
+
+.separate {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	FONT-SIZE: 1.2em;
+	PADDING-BOTTOM: 5px;
+	MARGIN: 8px 28px 10px;
+	PADDING-TOP: 5px;
+	BORDER-BOTTOM: #ccc 1px solid
+}
+
+.decimal {
+	text-align: right;
+	font-family: "Comic Sans MS";
+	font-weight: normal;
+	color: navy;
+}
+
+.SpecificationContent {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 70%;
+	PADDING-BOTTOM: 0px;
+	COLOR: #000000;
+	LINE-HEIGHT: 130%;
+	PADDING-TOP: 2px;
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif, Mingliu, MS Song
+}
+
+.SpecificationHeading {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 70%;
+	CURSOR: hand;
+	COLOR: #000000;
+	LINE-HEIGHT: 140%;
+	FONT-FAMILY: verdana, arial, helvetica, sans-serif, Mingliu, MS Song
+}
+
+#title {
+	text-align: center;
+	color: #42658D;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.title {
+	text-align: center;
+	color: #42658D;
+	font-size: 14px;
+	border-bottom: 1px solid #42658D;
+}
+
+.line {
+	height: 1px;
+	border-bottom: 1px dashed #42658D;
+}
+/*
+ * loading
+ * add 白剑
+*/
+.loading {
+	background-color: #EEFFF3;
+	color: #006600;
+	padding: 5px;
+	border: 1px solid #006600;
+	width: 200px;
+	display: none;
+	position: absolute;
+	z-index: 99;
+	background-image: url(../img/loading.gif);
+	background-repeat: no-repeat;
+	background-position: 2px 6px;
+	padding-left: 26px;
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	background-color: #005;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0, opacity=20,
+		finishOpacity=20);
+}
+/* end*/
+
+/*cm*/
+#divFooter {
+	margin-top: 6px;
+	border-top: 3px dotted #3e3e3e;
+	padding: 8px;
+}
+
+#divTitle {
+	margin: 6px;
+	text-align: center;
+	color: #42658D;
+	font-size: 14px;
+	font-weight: bold;
+}

@@ -1,0 +1,254 @@
+body.www {
+	font-size: 14px;
+}
+
+#nav_head {
+	height: 110px;
+	display: inline;
+}
+
+#nav {
+	position: fixed;
+	bottom: 2px;
+	display: block;
+	float: left;
+	width: 99%;
+}
+
+/* The tabs - based on the css sliding doors technique */
+#tabs {
+	left: 1px;
+	bottom: 23px;
+}
+
+#tabs a {
+	display: block;
+	float: left;
+	margin: 0px;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+/* Commented Backslash Hack
+   hides rule from IE5-Mac \*/
+#tabs a {
+	float: none;
+}
+/* End IE5-Mac hack */
+#tabs a:link {
+	color: #202020;
+}
+
+#tabs a:visited {
+	color: #202020;
+}
+
+#tabs a:hover {
+	color: #006486;
+	text-decoration: underline;
+}
+
+#tabs a:active {
+	color: purple;
+}
+
+/*
+#tabs a:active 	{
+	color:#006486;
+}
+*/
+#tabs li {
+	font-size: 100%;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+}
+
+#tabs ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* This is all very distressing */
+body.www #tabs li.current {
+	background: url("../tabs/db_home-left.gif") no-repeat left top;
+}
+
+body.www #tabs li.current a {
+	background: url("../tabs/db_home-right.gif") no-repeat right top;
+}
+
+body.www #tabs li.current a:link {
+	color: #fff;
+}
+
+body.www #tabs li.current a:visited {
+	color: #fff;
+}
+
+body.www #tabs li.current a:hover {
+	color: #64bfdb;
+	text-decoration: underline;
+}
+
+body.www #tabs li.current a:active {
+	color: #64bfdb;
+}
+
+body.www #tabs .plain {
+	background: url("../tabs/lb_home-left.gif") no-repeat left top;
+}
+
+body.www #tabs .plain a {
+	background: url("../tabs/lb_home-right.gif") no-repeat right top;
+}
+
+/* The blue menubar below the tabs */
+#menu {
+	background: #026789 url("../tabs/mid.gif") repeat-x bottom;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	top: 0px;
+	width: 102%;
+	color: #fff;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu a:link {
+	color: #fff;
+}
+
+#menu a:visited {
+	color: #fff;
+}
+
+#menu a:hover {
+	color: #64bfdb;
+	text-decoration: underline;
+}
+
+#menu a:active {
+	color: #64bfdb;
+}
+
+#menu ul {
+	background: #ccc;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li {
+	font-size: 12px;
+	background: url("../tabs/menusep.png") no-repeat bottom right;
+	float: left;
+	margin: 0px;
+	padding-left: 3px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+
+#menu li a {
+	margin: 0px;
+	padding-right: 4px;
+	white-space: nowrap;
+}
+
+#menu .spacer {
+	height: 5px;
+}
+
+/*  added by Mengluoyi start */
+#menu li.current {
+	font-size: 12px;
+	font-weight: bold;
+	background: url("../tabs/menusep.png") no-repeat center right;
+	margin: 0px;
+	padding-bottom: 4px;
+}
+
+#menu li.current a {
+	background: #E2F8FE;
+	color: #0000FF;
+	white-space: nowrap;
+	margin: 0px;
+	padding-left: 2px;
+}
+
+#menu li.current a:visited {
+	color: #6153FF;
+}
+
+/* The submenu */
+#subfld {
+	width: 99%;
+	float: left;
+	position: relative;
+	top: -1px;
+}
+
+#subfld h1 {
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 100%;
+	padding: 0px 0px 0px 1.6%;
+	margin: 10px 0px 8px 0px;
+}
+
+#submenu {
+	background: #C8E0E7 repeat-x bottom;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -1px;
+	width: 99%;
+	color: #fff;
+}
+
+#submenu ul {
+	background: #C8E0E7;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 0px 1%;
+}
+
+#submenu li {
+	font-size: 80%;
+	background: #C8E0E7 url("../tabs/menusep.png") no-repeat center right;
+	float: left;
+	margin: 0px;
+	padding: 3px 4px 7px 6px;
+}
+
+#submenu li a {
+	color: black;
+	margin: 0px;
+	padding: 0px 4px 0px 0px;
+	white-space: nowrap;
+}
+
+#submenu li strong {
+	padding: 0px 4px 0px 0px;
+}
+
+#nav_head_userinfo {
+	position: fixed;
+	top: 2px;
+	right: 2px;
+	width: 50%;
+}
+
+#nav_head_userinfo span {
+	font-size: 16px;
+	color: brown;
+}
+
+#nav_head img {
+	margin: 2px;
+}

@@ -1,0 +1,181 @@
+.top1 {
+	FONT-SIZE: 9pt;
+	BACKGROUND-IMAGE: url(../images/topbg.gif);
+	COLOR: #ffffff;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #1b579d
+}
+
+.top {
+	FONT-SIZE: 9pt;
+	COLOR: #ffffff;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #1b579d
+}
+
+.white {
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #ffffff
+}
+
+.black {
+	FONT-SIZE: 9pt;
+	COLOR: #ffffff;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #000000
+}
+
+.input2 {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #999999 1px solid;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: #999999 1px solid;
+	BORDER-BOTTOM: #999999 1px solid
+}
+
+.input {
+	BORDER-RIGHT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	BORDER-LEFT: #ffffff 1px solid;
+	BORDER-BOTTOM: #333333 1px solid
+}
+
+.datepicker {
+	BORDER-RIGHT: #ffffff 1px solid;
+	BORDER-TOP: #ffffff 1px solid;
+	BORDER-LEFT: #ffffff 1px solid;
+	BORDER-BOTTOM: #333333 1px solid;
+	DateFormatString: "yyyy-MM-dd";
+	AUTOCOMPLETE: "off";
+	Nullable: "True"
+}
+
+.td1 {
+	FONT-SIZE: 9pt;
+	TEXT-ALIGN: right
+}
+
+.search_table_left {
+	BACKGROUND-IMAGE: url(../images/table_l_bg.gif)
+}
+
+.search_table_down {
+	BACKGROUND-IMAGE: url(../images/table_d_bg.gif)
+}
+
+.search_title {
+	FONT-SIZE: 9pt;
+	COLOR: #ffffff;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #1b579d
+}
+
+UNKNOWN {
+	FONT-SIZE: 9pt;
+	COLOR: #cc0000;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	TEXT-ALIGN: right
+}
+
+UNKNOWN {
+	FONT-SIZE: 9pt;
+	COLOR: #000000;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #ffffff
+}
+
+.offwhite {
+	FONT-SIZE: 9pt;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #f5f5f5
+}
+
+.menu2 {
+	FONT-SIZE: 9pt;
+	COLOR: #000033;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #daebf8
+}
+
+.list1 {
+	FONT-SIZE: 9pt;
+	BACKGROUND-IMAGE: url(../images/listbg.gif);
+	COLOR: #ffffff;
+	LINE-HEIGHT: 22px;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #336699
+}
+
+A:link {
+	COLOR: #000000;
+	TEXT-DECORATION: none
+}
+
+A:visited {
+	COLOR: #000000;
+	TEXT-DECORATION: none
+}
+
+A:hover {
+	COLOR: #666666;
+	TEXT-DECORATION: underline
+}
+
+.button {
+	BORDER-RIGHT: #cccccc 1px groove;
+	BORDER-TOP: #cccccc 1px groove;
+	FONT-SIZE: 9pt;
+	BACKGROUND-IMAGE: url(../images/buttonbg.gif);
+	BORDER-LEFT: #cccccc 1px groove;
+	COLOR: #000000;
+	BORDER-BOTTOM: #cccccc 1px groove;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	BACKGROUND-COLOR: #ffffff
+}
+
+.bbg {
+	VERTICAL-ALIGN: middle;
+	BACKGROUND-COLOR: #000000
+}
+
+A.mainlink:link {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "�s�ө���", Verdana, Arial, sans-serif;
+	TEXT-DECORATION: none
+}
+
+A.mainlink:visited {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "�s�ө���", Verdana, Arial, sans-serif;
+	TEXT-DECORATION: none
+}
+
+A.mainlink:hover {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #ffffff;
+	FONT-FAMILY: "�s�ө���", Verdana, Arial, sans-serif;
+	TEXT-DECORATION: underline
+}
+
+.divider {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #999999;
+	FONT-FAMILY: "�s�ө���", Verdana, Arial, sans-serif
+}

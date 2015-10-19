@@ -1,0 +1,268 @@
+body {
+	font-family: Verdana, Arial, Courier, sans-serif;
+	font-size: 12px;
+	background-repeat: no-repeat;
+	background-position: 0% 20%;
+	background-attachment: fixed;
+}
+
+div#main {
+	text-align: left;
+	background-color: #F8F8F8;
+	left: 10;
+	position: absolute;
+	align: right;
+}
+
+div#subnav {
+	padding-top: 10px;
+}
+
+div.index {
+	text-align: left;
+}
+
+table {
+	border-color: gray;
+	border-width: 1px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.sheetTitle {
+	text-align: center;
+	color: navy;
+	border-width: 1;
+	background-color: #F0F0EE;
+	font-size: 18px;
+	font-family: '����_GB2312, ����';
+	font-weight: bold;
+}
+
+.tableTitle {
+	color: navy;
+	border-width: 1;
+	background-color: silver;
+	font-size: 12px;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+
+.deeper {
+	background-color: #EEEEFF;
+}
+
+tr.seperator {
+	border-style: solid;
+	border-color: gray;
+	border-width: 1;
+	background-color: #F0FFF0;
+}
+
+.lighter {
+	background-color: #EEFFEE;
+}
+
+tr.deeper {
+	background-color: #EEEEFF;
+}
+
+tr.lighter {
+	background-color: #EEFFEE;
+}
+
+th {
+	color: navy;
+	border-width: 1;
+	background-color: silver;
+}
+
+td {
+	cellspacing: 2;
+	cellmargin: 2;
+	text-align: left;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+}
+
+.decimal {
+	text-align: right;
+	font-family: "Comic Sans MS";
+	color: navy;
+}
+
+.negative {
+	text-align: right;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	color: red;
+}
+
+.total {
+	background-color: #FFE0FF;
+}
+
+.goback {
+	position: absolute;
+	right: 0;
+}
+
+.warning {
+	width: 98%;
+	background-color: yellow;
+	border-style: solid;
+	border-color: red;
+	border-width: medium;
+}
+
+.help {
+	width: 80%;
+	background-color: #E0FFE0;
+	color: navy;
+	text-align: left;
+}
+
+.instruction {
+	text-align: center;
+	font-size: 16px;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	color: red;
+}
+
+.printbutton {
+	color: #99CCFF;
+	background-color: #3A6EA5;
+	width: 80;
+	height: 20;
+	cursor: hand;
+	border-left: 1 solid #A6C1DF;
+	border-right: 1 solid #002200;
+	border-top: 1 solid #A6C1DF;
+	border-bottom: 1 solid #002200
+}
+
+h3 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.modifyInputStyle {
+	font-family: "Comic Sans MS";
+	COLOR: navy;
+	font-weight: bold;
+	text-align: right;
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: #0099ff 1px solid;
+	BORDER-LEFT: #0099ff 1px solid;
+	BORDER-RIGHT: #0099ff 1px solid;
+	BORDER-TOP: #0099ff 1px solid;
+	HEIGHT: 100%;
+	width: 100%;
+}
+
+.modifyInputStyleDate {
+	font-family: "Comic Sans MS";
+	COLOR: navy;
+	text-align: left;
+	BACKGROUND-COLOR: #ffffff;
+	BORDER-BOTTOM: #0099ff 1px solid;
+	BORDER-LEFT: #0099ff 1px solid;
+	BORDER-RIGHT: #0099ff 1px solid;
+	BORDER-TOP: #0099ff 1px solid;
+	HEIGHT: 100%;
+	width: 100%;
+}
+
+.modifyInputStyle1 {
+	font-family: Verdana, Arial, Courier, sans-serif;
+	COLOR: black;
+	BACKGROUND-COLOR: #EEEEFF;
+	BORDER-BOTTOM: #0099ff 0px solid;
+	BORDER-LEFT: #0099ff 0px solid;
+	BORDER-RIGHT: #0099ff 0px solid;
+	BORDER-TOP: #0099ff 0px solid;
+	HEIGHT: 100%;
+}
+
+.modifyInputStyle2 {
+	font-family: Verdana, Arial, Courier, sans-serif;
+	COLOR: black;
+	BACKGROUND-COLOR: #EEFFEE;
+	BORDER-BOTTOM: #0099ff 0px solid;
+	BORDER-LEFT: #0099ff 0px solid;
+	BORDER-RIGHT: #0099ff 0px solid;
+	BORDER-TOP: #0099ff 0px solid;
+	HEIGHT: 100%;
+}
+
+.low {
+	color: navy;
+	text-align: right;
+	font-weight: bold;
+	BACKGROUND-COLOR: yellow;
+	BORDER-BOTTOM: #0099ff 0px solid;
+	BORDER-LEFT: #0099ff 0px solid;
+	BORDER-RIGHT: #0099ff 0px solid;
+	BORDER-TOP: #0099ff 0px solid;
+	HEIGHT: 100%;
+	width: 100%;
+}
+
+.high {
+	color: navy;
+	text-align: right;
+	font-weight: bold;
+	BACKGROUND-COLOR: red;
+	BORDER-BOTTOM: #0099ff 0px solid;
+	BORDER-LEFT: #0099ff 0px solid;
+	BORDER-RIGHT: #0099ff 0px solid;
+	BORDER-TOP: #0099ff 0px solid;
+	HEIGHT: 100%;
+	width: 100%;
+}
+
+.agree {
+	color: navy;
+	text-align: right;
+	font-weight: bold;
+	BACKGROUND-COLOR: #00F0F0;
+	BORDER-BOTTOM: #0099ff 0px solid;
+	BORDER-LEFT: #0099ff 0px solid;
+	BORDER-RIGHT: #0099ff 0px solid;
+	BORDER-TOP: #0099ff 0px solid;
+	high: 100%;
+	width: 100%;
+}
+
+.info {
+	width: 90%;
+	background-color: yellow;
+	border-style: solid;
+	border-color: #00B0F0;
+	border-width: medium;
+}
+
+.excelExport {
+	color: #99CCFF;
+	background-color: #3A6EA5;
+	width: 80;
+	height: 20;
+	cursor: hand;
+	border-left: 1 solid #A6C1DF;
+	border-right: 1 solid #002200;
+	border-top: 1 solid #A6C1DF;
+	border-bottom: 1 solid #002200
+}
+
+.excelExport2 {
+	color: red;
+	background-color: #3A6EA5;
+	width: 80;
+	height: 20;
+	cursor: hand;
+	border-left: 1 solid #A6C1DF;
+	border-right: 1 solid #002200;
+	border-top: 1 solid #A6C1DF;
+	border-bottom: 1 solid #002200
+}

@@ -1,0 +1,48 @@
+//filePathNew为一个File对象的实例 
+ WritableWorkbook wwb = Workbook.createWorkbook(filePathNew); 
+  
+//strSheetname为Excel中Sheet表的名称 
+ WritableSheet ws = wwb.createSheet(strSheetname, 0); 
+  
+//创建格式化对象实例 
+ WritableCellFormat totalx2Format = new WritableCellFormat(); 
+  
+//垂直居中 
+ totalx2Format.setVerticalAlignment(VerticalAlignment.CENTRE); 
+  
+//水平居中 
+ totalx2Format.setAlignment(Alignment.CENTRE); 
+  
+//第一列的宽度 
+ ws.setColumnView(0, 15); 
+  
+//第二列的宽度 
+ ws.setColumnView(1, 40); 
+  
+//合并单元格：第一行第一列，第一行第二列，第二行第一列，第二行第二列 
+//(0, 0, 1, 1)称为坐标更合适，实际上是将(0,0)单元格扩大了 
+ ws.mergeCells(0, 0, 1, 1); 
+  
+//设置Sheet表的标题，使用刚才合并的单元格，并将格式绑定 
+ Label sheetTitle = new Label(0, 0, "统计表", totalx2Format); 
+ws.addCell(sheetTitle); 
+  
+//设置列标题 
+Label colums1 = new Label(0, 2, "编号"); 
+ws.addCell(colums1); 
+Label colums2 = new Label(1, 2, "名称"); 
+ws.addCell(colums2); 
+  
+//开始添加数据 
+for(int k = 3; k <= 13; k++) 
+{ 
+Label content1 = new Label(0, k, 编号：k); 
+Label content2 = new Label(1, k, 名称：k); 
+ws.addCell(content1); 
+ws.addCell(content2); 
+} 
+  
+wwb.write(); 
+  
+//别忘了关闭哦 
+wwb.close();

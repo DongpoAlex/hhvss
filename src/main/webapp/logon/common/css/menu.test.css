@@ -1,0 +1,268 @@
+body.www {
+	background-image: url( "/cyberfas/img/cyberfas.gif" );
+	background-repeat: no-repeat;
+	background-position: 1% 100%;
+	background-attachment: fixed;
+}
+
+#nav {
+	position: absolute;
+	left: 1%;
+	top: 10px;
+	width: 98%;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+/* The tabs - based on the css sliding doors technique */
+#tabs {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin: 0px 0px 0px 3%;
+	padding: 0px;
+	list-style: none;
+}
+
+#userinfo {
+	position: relative;
+	top: 0px;
+	left: 20px;
+	margin: 0px 0px 0px 3%;
+	padding: 0px;
+	list-style: none;
+	font-style: italic;
+	color: brown;
+}
+
+#tabs a {
+	display: block;
+	float: left;
+	margin: 0px;
+	padding: 4px 25px 3px 4px;
+	text-decoration: none;
+}
+
+/* Commented Backslash Hack
+   hides rule from IE5-Mac \*/
+#tabs a {
+	float: none;
+}
+/* End IE5-Mac hack */
+#tabs a:link {
+	color: #202020;
+}
+
+#tabs a:visited {
+	color: #202020;
+}
+
+#tabs a:hover {
+	color: #006486;
+	text-decoration: underline;
+}
+
+#tabs a:active {
+	color: purple;
+}
+
+/*
+#tabs a:active 	{
+	color:#006486;
+}
+
+*/
+#tabs li {
+	font-size: 80%;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 6px;
+}
+
+#tabs ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* This is all very distressing */
+body.www #tabs li.current {
+	background: url("../tabs/db_home-left.gif") no-repeat left top;
+}
+
+body.www #tabs li.current a {
+	background: url("../tabs/db_home-right.gif") no-repeat right top;
+	font-weight: bold;
+}
+
+body.www #tabs li.current a:link {
+	color: #fff;
+}
+
+body.www #tabs li.current a:visited {
+	color: #fff;
+}
+
+body.www #tabs li.current a:hover {
+	color: #64bfdb;
+	text-decoration: underline;
+}
+
+body.www #tabs li.current a:active {
+	color: #64bfdb;
+}
+
+body.www #tabs .plain {
+	background: url("../tabs/lb_home-left.gif") no-repeat left top;
+}
+
+body.www #tabs .plain a {
+	background: url("../tabs/lb_home-right.gif") no-repeat right top;
+}
+
+/* The blue menubar below the tabs */
+#menu {
+	background: #026789 url("../tabs/mid.gif") repeat-x bottom;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -1px;
+	width: 99%;
+	color: #fff;
+}
+
+#menu a {
+	text-decoration: none;
+}
+
+#menu a:link {
+	color: #fff;
+}
+
+#menu a:visited {
+	color: #fff;
+}
+
+#menu a:hover {
+	color: #64bfdb;
+	text-decoration: underline;
+}
+
+#menu a:active {
+	color: #64bfdb;
+}
+
+#menu ul {
+	background: #ccc;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 0px 1%;
+}
+
+#menu li {
+	font-size: 80%;
+	font-family: verdana, arial, sans-serif;
+	background: url("../tabs/menusep.png") no-repeat center right;
+	float: left;
+	margin: 0px;
+	padding: 3px 4px 6px 6px;
+}
+
+#menu li a {
+	margin: 0px;
+	padding: 0px 4px 0px 0px;
+	white-space: nowrap;
+}
+
+#menu li strong {
+	padding: 0px 4px 0px 0px;
+}
+
+#menu li a strong {
+	padding: 0px;
+}
+
+#menu .spacer {
+	height: 5px;
+}
+
+#menu .important {
+	background: #01506B;
+	height: 10px;
+}
+
+/*  added by Mengluoyi start */
+#menu li.current {
+	font-size: 80%;
+	font-family: verdana, arial, sans-serif;
+	background: url("../tabs/menusep.png") no-repeat center right;
+	float: left;
+	margin: 0px;
+	padding: 3px 4px 6px 6px;
+}
+
+#menu li.current a {
+	background: #C8E0E7;
+	/*	background:#0267D8 ;	*/
+	margin: 0px;
+	padding: 0px 4px 0px 0px;
+	white-space: nowrap;
+}
+
+/*  added by Mengluoyi over */
+
+/* The submenu */
+#subfld {
+	width: 99%;
+	background: url("../tabs/subfld.png");
+	float: left;
+	position: relative;
+	top: -1px;
+}
+
+#subfld h1 {
+	font-size: 120%;
+	font-weight: normal;
+	line-height: 100%;
+	padding: 0px 0px 0px 1.6%;
+	margin: 10px 0px 8px 0px;
+}
+
+#submenu {
+	background: #C8E0E7 url("../tabs/sub.png") repeat-x bottom;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: -1px;
+	width: 99%;
+	color: #fff;
+}
+
+#submenu ul {
+	background: #C8E0E7;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 0px 1%;
+}
+
+#submenu li {
+	font-size: 80%;
+	background: #C8E0E7 url("../tabs/menusep.png") no-repeat center right;
+	float: left;
+	margin: 0px;
+	padding: 3px 4px 7px 6px;
+}
+
+#submenu li a {
+	color: black;
+	margin: 0px;
+	padding: 0px 4px 0px 0px;
+	white-space: nowrap;
+}
+
+#submenu li strong {
+	padding: 0px 4px 0px 0px;
+}

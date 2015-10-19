@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title></title>
+<script language="javascript" src="../AW/runtime/lib/aw.js"> </script>
+<script language="javascript" src="../js/ReportGrid.js"> </script>
+<link href="../css/aw_style.css" rel="stylesheet" type="text/css" />
+<link href="../AW/runtime/styles/xp/aw.css" rel="stylesheet"
+	type="text/css"></link>
+<style type="text/css">
+.aw-grid-control {
+	height: 500px;
+	width: 100%;
+}
+
+.aw-grid-row {
+	height: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.aw-grid-cell {
+	border-right: 1px solid #eee;
+}
+</style>
+
+<script language="javascript" type="text/javascript">
+	var report = new ReportGrid();
+	window.onload=function(){
+		var url="../DaemonDemo?operation=reportinit";
+		report.initHTML(url);
+	}
+
+	function search(){
+		var url="../DaemonDemo?operation=reporttest";
+		//var url="data";
+		report.load(url);
+	}
+</script>
+
+</head>
+<body>
+	<div id="divTitle"></div>
+	<div id="divSearch"></div>
+	<div id="divReportGrid"></div>
+	<div id="divFooter"></div>
+</body>
+</html>

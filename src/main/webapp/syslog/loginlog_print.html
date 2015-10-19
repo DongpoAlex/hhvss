@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>登陆日志查询打印</title>
+<link rel="stylesheet" type="text/css"
+	href="/resources/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css"
+	href="/resources/easyui/themes/icon.css">
+<script src="/resources/script/jquery-1.11.1.min.js"></script>
+<script src="/resources/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript"
+	src="/resources/easyui/locale/easyui-lang-zh_CN.js"></script>
+<script>
+	$(function(){
+		
+		function getQueryString(name) {
+			var url = location.search; //获取url中"?"符后的字串
+		     if (url.indexOf(name) != -1) {
+                 var str = url.substr(url.indexOf("=")+3);
+                 return str;
+		     }
+			return url;
+		}
+
+		var reurl= getQueryString('reurl');
+
+		$('#dg').datagrid({
+		    url:reurl,
+		    columns:[[
+		        {field:'ROWNUM',title:'行号',width:50},
+		        {field:'CONTROLTYPE',title:'经营公司',width:80},
+		        {field:'LOGINID',title:'登陆代码',width:80},
+		        {field:'VENDERNAME',title:'供应商名称',width:300},
+		        {field:'DJE',title:'单价',width:100,align:'right'},
+		        {field:'SUNMJE',title:'总金额',width:100,align:'right'}
+		    ]]
+		});
+		
+		$('#print').click(function(){
+			window.print();
+		});
+		
+	});
+</script>
+</head>
+<body>
+	<div style="width: 90%; margin-left: 5%; text-align: center;">
+		<h2>登陆供应商详细查询打印</h2>
+		<div style="text-align: right;">
+			<button id="print">打印</button>
+		</div>
+		<br>
+		<table id="dg"></table>
+	</div>
+</body>
+</html>

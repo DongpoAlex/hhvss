@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<display-name>garden</display-name>
+	<description>garden Dispatch</description>
+
+	<!-- 在线人数监听器 <listener> <listener-class>com.royalstone.listener.SessionCountListenter</listener-class> 
+		</listener> -->
+
+	<!-- JSPC servlet mappings start -->
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for XComponent -->
+
+	<servlet>
+		<servlet-name>DaemonBranchGroup</servlet-name>
+		<servlet-class>com.royalstone.myshop.basic.DaemonBranchGroup</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonDBLookup</servlet-name>
+		<servlet-class>com.royalstone.util.dblookup.DaemonDBLookup</servlet-class>
+	</servlet>
+
+	<!-- daemon for logon -->
+	<servlet>
+		<servlet-name>DaemonCode</servlet-name>
+		<servlet-class>com.royalstone.security.DaemonCode</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonLogon</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonLogon</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonLogonVender</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonLogonVender</servlet-class>
+	</servlet>
+
+	<!-- daemon for syslog -->
+	<servlet>
+		<servlet-name>DaemonReportSyslog</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonReportSyslog</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonReportLoginlog</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonReportLoginlog</servlet-class>
+	</servlet>
+
+	<!-- for liquidation -->
+	<servlet>
+		<servlet-name>DaemonSGroup</servlet-name>
+		<servlet-class>com.royalstone.myshop.basic.DaemonSGroup</servlet-class>
+	</servlet>
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for noteboard -->
+
+	<servlet>
+		<servlet-name>DaemonBoardManager</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonBoardManager</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonTaskPending</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonTaskPending</servlet-class>
+	</servlet>
+
+
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for sheets -->
+	<servlet>
+		<servlet-name>DaemonSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonSheet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonSearchSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonSearchSheet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonSearchVender</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonSearchVender</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonSheetManager</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonSheetManager</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonInvoiceAdm</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonInvoiceAdm</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonUpload</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonUpload</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonDownloadSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonDownloadSheet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonViewSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonViewSheet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonShowPayment</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonShowPayment</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonReportFiscal</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonReportFiscal</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonVenderAdmin</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonVenderAdmin</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonStkCostAdjItem</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonStkCostAdjItem</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonStkCostAdj</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonStkCostAdj</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonSearchBakSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonSearchBakSheet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonViewBakSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonViewBakSheet</servlet-class>
+	</servlet>
+
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for vender-message -->
+	<servlet>
+		<servlet-name>DaemonVenderMsg</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonVenderMsg</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonDownloadExcel</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonDownloadExcel</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonDownloadPayment</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonDownloadPayment</servlet-class>
+	</servlet>
+
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for infomation-center -->
+	<servlet>
+		<servlet-name>DaemonInformation</servlet-name>
+		<servlet-class>com.royalstone.myshop.info.DaemonInformation</servlet-class>
+	</servlet>
+
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for administration -->
+	<servlet>
+		<servlet-name>DaemonMenuAdm</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonMenuAdm</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonUserAdm</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonUserAdm</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonVenderUserAdm</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonVenderUserAdm</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonRoleAdm</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonRoleAdm</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonAuthority</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonAuthority</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonModuleList</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonModuleList</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonAddUsers</servlet-name>
+		<servlet-class>com.royalstone.vss.admin.DaemonAddUsers</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonVender</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonVender</servlet-class>
+	</servlet>
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for mail -->
+	<servlet>
+		<servlet-name>DaemonMailManage</servlet-name>
+		<servlet-class>com.royalstone.email.DaemonMailManage</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonMail</servlet-name>
+		<servlet-class>com.royalstone.email.DaemonMail</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonDownloadMail</servlet-name>
+		<servlet-class>com.royalstone.email.DaemonDownloadMail</servlet-class>
+	</servlet>
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for mail-attachment -->
+	<servlet>
+		<servlet-name>DaemonFileDownload</servlet-name>
+		<servlet-class>com.royalstone.file.DaemonFileDownload</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonByeUpLoad</servlet-name>
+		<servlet-class>com.royalstone.file.DaemonByeUpLoad</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonViewHisSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.his.DaemonViewHisSheet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonSearchHisSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.his.DaemonSearchHisSheet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonDownHisSheet</servlet-name>
+		<servlet-class>com.royalstone.vss.his.DaemonSearchHisSheet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonDownloadHisExcel</servlet-name>
+		<servlet-class>com.royalstone.vss.his.DaemonDownloadHisExcel</servlet-class>
+	</servlet>
+
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- daemon for CM -->
+	<servlet>
+		<servlet-name>DaemonCM</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonCM</servlet-class>
+	</servlet>
+	<!-- daemo for report -->
+
+	<servlet>
+		<servlet-name>DaemonReport</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonReport</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonDownloadReport</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonDownloadReport</servlet-class>
+	</servlet>
+
+	<!-- oi -->
+	<servlet>
+		<servlet-name>DaemonOI</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonOI</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonHoliday</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonHoliday</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonEDI</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonEDI</servlet-class>
+	</servlet>
+
+	<!-- barcode -->
+	<servlet>
+		<servlet-name>BarCode</servlet-name>
+		<servlet-class>com.royalstone.util.barcode.BarCodeServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<!-- 农残检测 -->
+	<servlet>
+		<servlet-name>DaemonDetection</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonDetection</servlet-class>
+	</servlet>
+	<!-- 证照 -->
+	<servlet>
+		<servlet-name>DaemonCertificate</servlet-name>
+		<servlet-class>com.royalstone.certificate.DaemonCertificate</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonImgUpLoad</servlet-name>
+		<servlet-class>com.royalstone.certificate.DaemonImgUpLoad</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonImgDownLoad</servlet-name>
+		<servlet-class>com.royalstone.certificate.DaemonImgDownLoad</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonGoods</servlet-name>
+		<servlet-class>com.royalstone.myshop.basic.DaemonGoods</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>DaemonMain</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonMain</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DaemonMainDownload</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonMainDownload</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonNetOrderParam</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonNetOrderParam</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonNetLargerVender</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonNetLargerVender</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonNetOrderTime</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonNetOrderTime</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonNetOrder</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonNetOrder</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DaemonNetInCar</servlet-name>
+		<servlet-class>com.royalstone.vss.daemon.DaemonNetInCar</servlet-class>
+	</servlet>
+
+
+	<!-- ======================================================================================= -->
+	<!-- URL mapping start -->
+
+	<servlet-mapping>
+		<servlet-name>DaemonBranchGroup</servlet-name>
+		<url-pattern>/DaemonBranchGroup</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonDBLookup</servlet-name>
+		<url-pattern>/DaemonDBLookup</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DaemonSGroup</servlet-name>
+		<url-pattern>/DaemonSGroup</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonMailManage</servlet-name>
+		<url-pattern>/DaemonMailManage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonFileDownload</servlet-name>
+		<url-pattern>/DaemonFileDownload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonByeUpLoad</servlet-name>
+		<url-pattern>/DaemonByeUpLoad</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonMail</servlet-name>
+		<url-pattern>/DaemonMail</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonDownloadMail</servlet-name>
+		<url-pattern>/DaemonDownloadMail</url-pattern>
+	</servlet-mapping>
+	<!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<servlet-mapping>
+		<servlet-name>DaemonCode</servlet-name>
+		<url-pattern>/DaemonCode</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonLogon</servlet-name>
+		<url-pattern>/DaemonLogon</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonLogonVender</servlet-name>
+		<url-pattern>/DaemonLogonVender</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonInformation</servlet-name>
+		<url-pattern>/DaemonInformation</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonSheet</servlet-name>
+		<url-pattern>/DaemonSheet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonSearchSheet</servlet-name>
+		<url-pattern>/DaemonSearchSheet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonSearchVender</servlet-name>
+		<url-pattern>/DaemonSearchVender</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonSheetManager</servlet-name>
+		<url-pattern>/DaemonSheetManager</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonUpload</servlet-name>
+		<url-pattern>/DaemonUpload</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonInvoiceAdm</servlet-name>
+		<url-pattern>/DaemonInvoiceAdm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonDownloadSheet</servlet-name>
+		<url-pattern>/DaemonDownloadSheet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonViewSheet</servlet-name>
+		<url-pattern>/DaemonViewSheet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonShowPayment</servlet-name>
+		<url-pattern>/DaemonShowPayment</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonReportFiscal</servlet-name>
+		<url-pattern>/DaemonReportFiscal</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonVenderAdmin</servlet-name>
+		<url-pattern>/DaemonVenderAdmin</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonStkCostAdjItem</servlet-name>
+		<url-pattern>/DaemonStkCostAdjItem</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonStkCostAdj</servlet-name>
+		<url-pattern>/DaemonStkCostAdj</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+
+
+
+		<servlet-name>DaemonViewBakSheet</servlet-name>
+		<url-pattern>/DaemonViewBakSheet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonSearchBakSheet</servlet-name>
+		<url-pattern>/DaemonSearchBakSheet</url-pattern>
+	</servlet-mapping>
+	<!-- ======================================================================================= -->
+	<servlet-mapping>
+		<servlet-name>DaemonAuthority</servlet-name>
+		<url-pattern>/DaemonAuthority</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DaemonRoleAdm</servlet-name>
+		<url-pattern>/DaemonRoleAdm</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DaemonUserAdm</servlet-name>
+		<url-pattern>/DaemonUserAdm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonVenderUserAdm</servlet-name>
+		<url-pattern>/DaemonVenderUserAdm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonMenuAdm</servlet-name>
+		<url-pattern>/DaemonMenuAdm</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonModuleList</servlet-name>
+		<url-pattern>/DaemonModuleList</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonAddUsers</servlet-name>
+		<url-pattern>/DaemonAddUsers</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonVender</servlet-name>
+		<url-pattern>/DaemonVender</url-pattern>
+	</servlet-mapping>
+	<!-- ====================================================================================== -->
+	<servlet-mapping>
+		<servlet-name>DaemonVenderMsg</servlet-name>
+		<url-pattern>/DaemonVenderMsg</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonDownloadExcel</servlet-name>
+		<url-pattern>/DaemonDownloadExcel</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonDownloadPayment</servlet-name>
+		<url-pattern>/DaemonDownloadPayment</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonReportSyslog</servlet-name>
+		<url-pattern>/DaemonReportSyslog</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonReportLoginlog</servlet-name>
+		<url-pattern>/DaemonReportLoginlog</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonBoardManager</servlet-name>
+		<url-pattern>/DaemonBoardManager</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonTaskPending</servlet-name>
+		<url-pattern>/DaemonTaskPending</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DaemonCM</servlet-name>
+		<url-pattern>/DaemonCM</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonReport</servlet-name>
+		<url-pattern>/DaemonReport</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonDownloadReport</servlet-name>
+		<url-pattern>/DaemonDownloadReport</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonOI</servlet-name>
+		<url-pattern>/DaemonOI</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonHoliday</servlet-name>
+		<url-pattern>/DaemonHoliday</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonEDI</servlet-name>
+		<url-pattern>/DaemonEDI</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>BarCode</servlet-name>
+		<url-pattern>/BarCode</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DaemonCertificate</servlet-name>
+		<url-pattern>/DaemonCertificate</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonImgUpLoad</servlet-name>
+		<url-pattern>/DaemonImgUpLoad</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonImgDownLoad</servlet-name>
+		<url-pattern>/DaemonImgDownLoad</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonGoods</servlet-name>
+		<url-pattern>/DaemonGoods</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>DaemonMain</servlet-name>
+		<url-pattern>/DaemonMain</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonMainDownload</servlet-name>
+		<url-pattern>/DaemonMainDownload</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonNetOrderParam</servlet-name>
+		<url-pattern>/DaemonNetOrderParam</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonNetLargerVender</servlet-name>
+		<url-pattern>/DaemonNetLargerVender</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonNetOrderTime</servlet-name>
+		<url-pattern>/DaemonNetOrderTime</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonNetOrder</servlet-name>
+		<url-pattern>/DaemonNetOrder</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonNetInCar</servlet-name>
+		<url-pattern>/DaemonNetInCar</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonDetection</servlet-name>
+		<url-pattern>/DaemonDetection</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DaemonViewHisSheet</servlet-name>
+		<url-pattern>/DaemonViewHisSheet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonSearchHisSheet</servlet-name>
+		<url-pattern>/DaemonSearchHisSheet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonDownHisSheet</servlet-name>
+		<url-pattern>/DaemonDownHisSheet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DaemonDownloadHisExcel</servlet-name>
+		<url-pattern>/DaemonDownloadHisExcel</url-pattern>
+	</servlet-mapping>
+
+	<!-- ======================================================================================= -->
+
+	<welcome-file-list>
+		<welcome-file>/welcome.htm</welcome-file>
+	</welcome-file-list>
+
+	<error-page>
+		<error-code>500</error-code>
+		<location>/errorpage/500.jsp</location>
+	</error-page>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/errorpage/404.jsp</location>
+	</error-page>
+	<!-- JSPC servlet mappings end -->
+
+	<!-- ======================================================================== -->
+	<!--data source start -->
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>dbmain</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>hnvss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>olevss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>xbvss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>hdvss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>hbvss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>vivoplus</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>voila</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>dbvss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>mallvss</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+	<!--data source end -->
+</web-app>

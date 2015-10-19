@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xdoc>
+  <xout>
+    <report>
+      <colmodel>
+        <col seqno="1" field="shopid" name="门店编码" width="0" />
+        <col seqno="2" field="shopname" name="门店名称" width="0" />
+        <col seqno="3" field="vendername" name="供应商名称" width="0" />
+        <col seqno="4" field="goodsname" name="商品名称" width="200" />
+        <col seqno="5" field="qty" name="销售数量" vtype="number" width="0" />
+      </colmodel>
+      <row>
+        <venderid>V08053</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>415906</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>150502</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>194</grosscostvalue>
+        <netcostvalue>171.68</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>165.2</grosssalevalue>
+        <netsalevalue>146.19</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00233</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>676708</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>110303</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>5.95</grosscostvalue>
+        <netcostvalue>5.09</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>7.3</grosssalevalue>
+        <netsalevalue>6.24</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05933</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>735632</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>620101</categoryid>
+        <qty>1130</qty>
+        <grosscostvalue>84.75</grosscostvalue>
+        <netcostvalue>72.44</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>113</grosssalevalue>
+        <netsalevalue>96.58</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00609</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>118211</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>210301</categoryid>
+        <qty>5</qty>
+        <grosscostvalue>76</grosscostvalue>
+        <netcostvalue>64.96</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>74</grosssalevalue>
+        <netsalevalue>63.25</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04204</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>204569</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>100501</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>15.5</grosscostvalue>
+        <netcostvalue>13.25</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>16.8</grosssalevalue>
+        <netsalevalue>14.36</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01161</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>20110</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>71005</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>22.3</grosscostvalue>
+        <netcostvalue>19.06</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>19</grosssalevalue>
+        <netsalevalue>16.24</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07632</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>682365</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>71501</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>43.92</grosscostvalue>
+        <netcostvalue>37.54</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>39</grosssalevalue>
+        <netsalevalue>33.33</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V03311</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>875876</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140904</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>29.4</grosscostvalue>
+        <netcostvalue>25.13</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>32.7</grosssalevalue>
+        <netsalevalue>27.95</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08283</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>500489</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>41101</categoryid>
+        <qty>172.213</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>1705.7</grosssalevalue>
+        <netsalevalue>1509.47</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V02242</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>957624</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>210203</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>19.96</grosscostvalue>
+        <netcostvalue>17.06</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>24</grosssalevalue>
+        <netsalevalue>20.51</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08113</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>68526</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>30402</categoryid>
+        <qty>291.241</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>1719.5</grosssalevalue>
+        <netsalevalue>1521.68</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07563</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>602874</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>180101</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>4.75</grosscostvalue>
+        <netcostvalue>4.06</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.56</grosssalevalue>
+        <netsalevalue>4.75</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04363</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>651478</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>230701</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>9.56</grosscostvalue>
+        <netcostvalue>8.17</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>11.78</grosssalevalue>
+        <netsalevalue>10.07</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>993884</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>200102</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>24.06</grosscostvalue>
+        <netcostvalue>20.56</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>25.5</grosssalevalue>
+        <netsalevalue>21.79</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08121</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>173020</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>80302</categoryid>
+        <qty>8</qty>
+        <grosscostvalue>84</grosscostvalue>
+        <netcostvalue>71.79</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>95.2</grosssalevalue>
+        <netsalevalue>81.37</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>L00161</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>227422</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>650101</categoryid>
+        <qty>16620</qty>
+        <grosscostvalue>1312.98</grosscostvalue>
+        <netcostvalue>1122.21</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>1662</grosssalevalue>
+        <netsalevalue>1420.51</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07818</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>20628</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>240102</categoryid>
+        <qty>5</qty>
+        <grosscostvalue>35.5</grosscostvalue>
+        <netcostvalue>30.34</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>37.5</grosssalevalue>
+        <netsalevalue>32.05</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08195</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>474449</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>240801</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>13.2</grosscostvalue>
+        <netcostvalue>11.28</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>15</grosssalevalue>
+        <netsalevalue>12.82</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V03936</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>124955</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>80302</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>13.64</grosscostvalue>
+        <netcostvalue>11.66</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>15.5</grosssalevalue>
+        <netsalevalue>13.25</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08051</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>876279</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>290404</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>8</grosscostvalue>
+        <netcostvalue>6.84</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>9.98</grosssalevalue>
+        <netsalevalue>8.53</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07576</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>25061</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>10401</categoryid>
+        <qty>1.106</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>39.4</grosssalevalue>
+        <netsalevalue>34.87</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V06423</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>269842</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120209</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>6.08</grosscostvalue>
+        <netcostvalue>5.2</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.4</grosssalevalue>
+        <netsalevalue>4.62</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07300</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>876742</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>100401</categoryid>
+        <qty>4</qty>
+        <grosscostvalue>26</grosscostvalue>
+        <netcostvalue>22.22</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>32.72</grosssalevalue>
+        <netsalevalue>27.97</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05085</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>273551</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120505</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>25</grosscostvalue>
+        <netcostvalue>21.37</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>27.8</grosssalevalue>
+        <netsalevalue>23.76</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00609</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>458323</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>260101</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>34.23</grosscostvalue>
+        <netcostvalue>29.26</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>36</grosssalevalue>
+        <netsalevalue>30.77</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07570</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>102742</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>110402</categoryid>
+        <qty>30</qty>
+        <grosscostvalue>84</grosscostvalue>
+        <netcostvalue>71.79</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>89.7</grosssalevalue>
+        <netsalevalue>76.67</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>86071</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>220202</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>80.85</grosscostvalue>
+        <netcostvalue>69.1</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>110</grosssalevalue>
+        <netsalevalue>94.02</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>739584</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>260101</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>6.2</grosscostvalue>
+        <netcostvalue>5.3</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>7.98</grosssalevalue>
+        <netsalevalue>6.82</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07715</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>165223</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>493504</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>5</grosscostvalue>
+        <netcostvalue>4.27</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>7.49</grosssalevalue>
+        <netsalevalue>6.4</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07459</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>161404</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>570203</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>20.9</grosscostvalue>
+        <netcostvalue>17.86</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>29.99</grosssalevalue>
+        <netsalevalue>25.63</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V02026</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>743588</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>230703</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>10.6</grosscostvalue>
+        <netcostvalue>9.06</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>13.2</grosssalevalue>
+        <netsalevalue>11.28</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08282</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>131923</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120509</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>1.6</grosscostvalue>
+        <netcostvalue>1.37</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>2.29</grosssalevalue>
+        <netsalevalue>1.96</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>FY0659</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>148746</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>230401</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>4.3</grosscostvalue>
+        <netcostvalue>3.68</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.2</grosssalevalue>
+        <netsalevalue>4.44</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V06333</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>780914</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>441302</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>2.8</grosscostvalue>
+        <netcostvalue>2.39</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>3</grosssalevalue>
+        <netsalevalue>2.56</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>EX0922</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>118305</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>150706</categoryid>
+        <qty>6</qty>
+        <grosscostvalue>186</grosscostvalue>
+        <netcostvalue>164.6</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>203.4</grosssalevalue>
+        <netsalevalue>180</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08051</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>3970</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>290404</categoryid>
+        <qty>5</qty>
+        <grosscostvalue>10.25</grosscostvalue>
+        <netcostvalue>8.76</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>13</grosssalevalue>
+        <netsalevalue>11.11</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00609</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>532373</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>450109</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>29.28</grosscostvalue>
+        <netcostvalue>25.03</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>36.6</grosssalevalue>
+        <netsalevalue>31.28</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05979</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>210513</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>440706</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>13.78</grosscostvalue>
+        <netcostvalue>11.78</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>19.99</grosssalevalue>
+        <netsalevalue>17.09</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08686</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>230136</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>10805</categoryid>
+        <qty>6.55</qty>
+        <grosscostvalue>268.74</grosscostvalue>
+        <netcostvalue>237.82</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>298.6</grosssalevalue>
+        <netsalevalue>264.25</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05591</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>609492</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120501</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>17.2</grosscostvalue>
+        <netcostvalue>14.7</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>20.5</grosssalevalue>
+        <netsalevalue>17.52</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>36580</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>220202</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>205.8</grosscostvalue>
+        <netcostvalue>175.9</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>280</grosssalevalue>
+        <netsalevalue>239.32</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07576</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>24080</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>20101</categoryid>
+        <qty>3.632</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>159.1</grosssalevalue>
+        <netsalevalue>140.8</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04363</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>706661</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>480906</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>4.84</grosscostvalue>
+        <netcostvalue>4.14</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.98</grosssalevalue>
+        <netsalevalue>5.11</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08694</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>235402</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>130203</categoryid>
+        <qty>17</qty>
+        <grosscostvalue>73.04</grosscostvalue>
+        <netcostvalue>62.43</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>76.5</grosssalevalue>
+        <netsalevalue>65.38</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V03311</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>891664</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140901</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>30.6</grosscostvalue>
+        <netcostvalue>26.15</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>26.7</grosssalevalue>
+        <netsalevalue>22.82</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01193</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>399168</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>210305</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>12.96</grosscostvalue>
+        <netcostvalue>11.08</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>16.5</grosssalevalue>
+        <netsalevalue>14.1</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00392</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>21171</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>110604</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>7.02</grosscostvalue>
+        <netcostvalue>6</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>8</grosssalevalue>
+        <netsalevalue>6.84</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V03855</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>59165</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>290503</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>32.3</grosscostvalue>
+        <netcostvalue>27.61</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>33.8</grosssalevalue>
+        <netsalevalue>28.89</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08263</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>218922</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>493106</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>18.27</grosscostvalue>
+        <netcostvalue>15.62</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>29.99</grosssalevalue>
+        <netsalevalue>25.63</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07572</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>69392</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>412310</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>42.63</grosscostvalue>
+        <netcostvalue>36.44</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>11.6</grosssalevalue>
+        <netsalevalue>9.91</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08131</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>24261</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>20401</categoryid>
+        <qty>1.21</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>96.5</grosssalevalue>
+        <netsalevalue>85.4</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V03311</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>990847</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140903</categoryid>
+        <qty>18</qty>
+        <grosscostvalue>30.6</grosscostvalue>
+        <netcostvalue>26.15</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>27</grosssalevalue>
+        <netsalevalue>23.08</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>EX0537</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>78145</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120107</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>19.14</grosscostvalue>
+        <netcostvalue>16.36</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>23.7</grosssalevalue>
+        <netsalevalue>20.26</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07009</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>995193</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>210304</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>15.92</grosscostvalue>
+        <netcostvalue>13.61</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>8</grosssalevalue>
+        <netsalevalue>6.84</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>138386</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>240101</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>13.2</grosscostvalue>
+        <netcostvalue>11.28</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>12.8</grosssalevalue>
+        <netsalevalue>10.94</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04584</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>308581</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>180306</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>4.8</grosscostvalue>
+        <netcostvalue>4.1</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.98</grosssalevalue>
+        <netsalevalue>5.11</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00392</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>754854</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>110603</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>9.2</grosscostvalue>
+        <netcostvalue>7.86</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>10.5</grosssalevalue>
+        <netsalevalue>8.97</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>107671</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>481001</categoryid>
+        <qty>4</qty>
+        <grosscostvalue>541.04</grosscostvalue>
+        <netcostvalue>462.43</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>480</grosssalevalue>
+        <netsalevalue>410.26</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01161</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>868419</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>71004</categoryid>
+        <qty>11</qty>
+        <grosscostvalue>33</grosscostvalue>
+        <netcostvalue>28.21</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>41.8</grosssalevalue>
+        <netsalevalue>35.73</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05508</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>24337</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>20202</categoryid>
+        <qty>126</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>126</grosssalevalue>
+        <netsalevalue>111.5</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>EX0905</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>832745</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>150503</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>117</grosscostvalue>
+        <netcostvalue>103.54</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>119.7</grosssalevalue>
+        <netsalevalue>105.93</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>FY0659</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>699729</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>230501</categoryid>
+        <qty>5</qty>
+        <grosscostvalue>15.5</grosscostvalue>
+        <netcostvalue>13.25</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>14.95</grosssalevalue>
+        <netsalevalue>12.78</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>EX0916</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>361390</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120402</categoryid>
+        <qty>6</qty>
+        <grosscostvalue>10.2</grosscostvalue>
+        <netcostvalue>8.72</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>12</grosssalevalue>
+        <netsalevalue>10.26</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07563</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>76913</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>180101</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>4</grosscostvalue>
+        <netcostvalue>3.42</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.1</grosssalevalue>
+        <netsalevalue>4.36</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V06946</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>161500</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>150901</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>198</grosscostvalue>
+        <netcostvalue>175.22</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>199.8</grosssalevalue>
+        <netsalevalue>176.81</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07576</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>24186</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>20201</categoryid>
+        <qty>.786</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>17</grosssalevalue>
+        <netsalevalue>15.04</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>EX0639</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>60465</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>180204</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>6.56</grosscostvalue>
+        <netcostvalue>5.61</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>8.3</grosssalevalue>
+        <netsalevalue>7.09</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05934</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>784720</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>160504</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>35.4</grosscostvalue>
+        <netcostvalue>30.26</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>35.8</grosssalevalue>
+        <netsalevalue>30.6</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08587</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>718540</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>200304</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>66</grosscostvalue>
+        <netcostvalue>56.41</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>77.7</grosssalevalue>
+        <netsalevalue>66.41</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00942</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>334396</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>160202</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>57.58</grosscostvalue>
+        <netcostvalue>49.21</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>58.8</grosssalevalue>
+        <netsalevalue>50.26</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08414</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>789391</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>210101</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>21.6</grosscostvalue>
+        <netcostvalue>21.6</netcostvalue>
+        <costtaxrate>0</costtaxrate>
+        <grosssalevalue>29.99</grosssalevalue>
+        <netsalevalue>29.99</netsalevalue>
+        <saletaxrate>0</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04967</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>940499</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>240503</categoryid>
+        <qty>6</qty>
+        <grosscostvalue>76.2</grosscostvalue>
+        <netcostvalue>65.13</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>59.4</grosssalevalue>
+        <netsalevalue>50.77</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04584</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>931298</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>180308</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>1.6</grosscostvalue>
+        <netcostvalue>1.37</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>1.99</grosssalevalue>
+        <netsalevalue>1.7</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01161</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>934195</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>70301</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>51.4</grosscostvalue>
+        <netcostvalue>45.49</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>53.6</grosssalevalue>
+        <netsalevalue>47.43</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01371</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>731370</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>350804</categoryid>
+        <qty>268</qty>
+        <grosscostvalue>257.28</grosscostvalue>
+        <netcostvalue>219.9</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>268</grosssalevalue>
+        <netsalevalue>229.06</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04354</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>370718</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>240702</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>14.57</grosscostvalue>
+        <netcostvalue>12.45</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>16.99</grosssalevalue>
+        <netsalevalue>14.52</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V07664</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>169994</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>61101</categoryid>
+        <qty>5</qty>
+        <grosscostvalue>0</grosscostvalue>
+        <netcostvalue>0</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>16</grosssalevalue>
+        <netsalevalue>13.68</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V04000</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>906568</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>220202</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>45.39</grosscostvalue>
+        <netcostvalue>38.79</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>59</grosssalevalue>
+        <netsalevalue>50.43</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V06019</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>628359</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>150603</categoryid>
+        <qty>3</qty>
+        <grosscostvalue>105.6</grosscostvalue>
+        <netcostvalue>93.45</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>117</grosssalevalue>
+        <netsalevalue>103.54</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01522</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>680181</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>260201</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>9.17</grosscostvalue>
+        <netcostvalue>7.84</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>11.99</grosssalevalue>
+        <netsalevalue>10.25</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V02223</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>34200</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>490101</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>3.85</grosscostvalue>
+        <netcostvalue>3.29</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.59</grosssalevalue>
+        <netsalevalue>4.78</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01110</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>663994</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140202</categoryid>
+        <qty>16</qty>
+        <grosscostvalue>70.4</grosscostvalue>
+        <netcostvalue>60.17</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>72</grosssalevalue>
+        <netsalevalue>61.54</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05591</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>90781</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>130208</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>10.2</grosscostvalue>
+        <netcostvalue>8.72</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>12.98</grosssalevalue>
+        <netsalevalue>11.09</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08253</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>853577</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>433001</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>3.97</grosscostvalue>
+        <netcostvalue>3.39</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.99</grosssalevalue>
+        <netsalevalue>5.12</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V02185</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>523021</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>80601</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>6</grosscostvalue>
+        <netcostvalue>5.13</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>7.2</grosssalevalue>
+        <netsalevalue>6.15</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05085</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>376655</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140506</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>5.6</grosscostvalue>
+        <netcostvalue>4.79</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>7</grosssalevalue>
+        <netsalevalue>5.98</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05499</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>166899</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>180205</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>3.4</grosscostvalue>
+        <netcostvalue>2.91</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>4.59</grosssalevalue>
+        <netsalevalue>3.92</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05551</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>235294</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>110104</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>20.42</grosscostvalue>
+        <netcostvalue>17.45</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>16.9</grosssalevalue>
+        <netsalevalue>14.44</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08055</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>667030</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>170404</categoryid>
+        <qty>1.102</qty>
+        <grosscostvalue>96.2</grosscostvalue>
+        <netcostvalue>85.13</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>145.6</grosssalevalue>
+        <netsalevalue>128.85</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V01253</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>948128</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>210304</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>8.2</grosscostvalue>
+        <netcostvalue>7.01</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>9.99</grosssalevalue>
+        <netsalevalue>8.54</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V03095</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>389323</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140101</categoryid>
+        <qty>15</qty>
+        <grosscostvalue>25.5</grosscostvalue>
+        <netcostvalue>21.79</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>24</grosssalevalue>
+        <netsalevalue>20.51</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V06001</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>119742</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>130202</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>3.3</grosscostvalue>
+        <netcostvalue>2.82</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>3.98</grosssalevalue>
+        <netsalevalue>3.4</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08055</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>497577</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>170404</categoryid>
+        <qty>.142</qty>
+        <grosscostvalue>13.04</grosscostvalue>
+        <netcostvalue>11.54</netcostvalue>
+        <costtaxrate>13</costtaxrate>
+        <grosssalevalue>15.9</grosssalevalue>
+        <netsalevalue>14.07</netsalevalue>
+        <saletaxrate>13</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>EY0924</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>215516</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>140506</categoryid>
+        <qty>2</qty>
+        <grosscostvalue>11.94</grosscostvalue>
+        <netcostvalue>10.21</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>12.6</grosssalevalue>
+        <netsalevalue>10.77</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08507</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>932666</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>190527</categoryid>
+        <qty>1</qty>
+        <grosscostvalue>3.75</grosscostvalue>
+        <netcostvalue>3.21</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>5.99</grosssalevalue>
+        <netsalevalue>5.12</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00417</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>832579</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120402</categoryid>
+        <qty>14</qty>
+        <grosscostvalue>21.42</grosscostvalue>
+        <netcostvalue>18.31</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>25.2</grosssalevalue>
+        <netsalevalue>21.54</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V00662</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>291275</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>120505</categoryid>
+        <qty>4</qty>
+        <grosscostvalue>21.2</grosscostvalue>
+        <netcostvalue>18.12</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>27.96</grosssalevalue>
+        <netsalevalue>23.9</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V05547</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>757750</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>570408</categoryid>
+        <qty>5</qty>
+        <grosscostvalue>54.3</grosscostvalue>
+        <netcostvalue>46.41</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>69.5</grosssalevalue>
+        <netsalevalue>59.4</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+      <row>
+        <venderid>V08737</venderid>
+        <sdate>2009-10-01 00:00:00.0</sdate>
+        <goodsid>237369</goodsid>
+        <shopid>A00B</shopid>
+        <categoryid>290601</categoryid>
+        <qty>19</qty>
+        <grosscostvalue>3843.7</grosscostvalue>
+        <netcostvalue>3285.21</netcostvalue>
+        <costtaxrate>17</costtaxrate>
+        <grosssalevalue>3762</grosssalevalue>
+        <netsalevalue>3215.38</netsalevalue>
+        <saletaxrate>17</saletaxrate>
+        <salecostrate>17</salecostrate>
+        <touchtime>2009-10-02 05:05:23.0</touchtime>
+        <toucher>SYSTEM</toucher>
+      </row>
+    </report>
+  </xout>
+  <xerr>
+    <code>0</code>
+    <note>OK</note>
+    <time>2010-03-08 13:39:46</time>
+  </xerr>
+</xdoc>

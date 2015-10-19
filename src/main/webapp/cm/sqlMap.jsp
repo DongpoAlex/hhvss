@@ -1,0 +1,88 @@
+<%@page contentType="text/html;charset=UTF-8" session="false"
+	errorPage="../errorpage/errorpage.jsp"%>
+<%
+	String smid = request.getParameter("smid");
+%>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>SQL MAP EDIT</title>
+<script language="javascript" src="../AW/runtime/lib/aw.js"> </script>
+<script language="javascript" src="../js/ReportGrid.js"> </script>
+<link href="../css/aw_style.css" rel="stylesheet" type="text/css" />
+<link href="../AW/runtime/styles/xp/aw.css" rel="stylesheet"
+	type="text/css"></link>
+<style type="text/css">
+.aw-grid-control {
+	height: 500px;
+	width: 100%;
+}
+
+.aw-grid-row {
+	height: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.aw-grid-cell {
+	border-right: 1px solid #eee;
+}
+</style>
+
+<script language="javascript" type="text/javascript">
+window.onload = function(){
+	if($F("txt_smid")!='') showSql();
+};
+function showSql(){
+	var table = new AW.XML.Table;//new 一个table对象
+	table.setParameter("operation","getsqlmapinfo");
+	table.setParameter("smid",$F("txt_smid"));
+	table.setURL("../DaemonCM");//设置 url
+	table.setAsync(true);//设置异步/同步模式，true为异步（默认）,false为同步
+	table.setTable("xdoc/xout");//设置table数据路径，也就是需显示的xml的xpath。注意该方法一定在table.setXML方法之前。
+	table.request();//发送url请求
+	table.response = function(text){//设置异步响应方法。当服务器返回信息将调用该方法。当设置为同步模式时跳过该方法。
+		table.setXML(text);//读取服务器返回的xml信息
+		if( table.getErrCode() != '0' ){//处理xml中的错误消息
+			alert( table.getErrNote() );
+			return;
+		}
+		$("txt_sqlstr").value = table.getXMLText("xdoc/xout/sqlmap/row/sqlstr");
+		$("txt_note").value = table.getXMLText("xdoc/xout/sqlmap/row/note");
+	};
+}
+function updateSql(){
+	var table = new AW.XML.Table;//new 一个table对象
+	table.setParameter("operation","updatesqlmap");
+	table.setParameter("smid",$F("txt_smid"));
+	table.setParameter("sqlstr",$F("txt_sqlstr"));
+	table.setParameter("note",$F("txt_note"));
+	table.setURL("../DaemonCM");//设置 url
+	table.setTable("xdoc/xout");//设置table数据路径，也就是需显示的xml的xpath。注意该方法一定在table.setXML方法之前。
+	table.request();//发送url请求
+	table.response = function(text){//设置异步响应方法。当服务器返回信息将调用该方法。当设置为同步模式时跳过该方法。
+		table.setXML(text);//读取服务器返回的xml信息
+		if( table.getErrCode() != '0' ){//处理xml中的错误消息
+			alert( table.getErrNote() );
+			return;
+		}
+		alert("更新完毕");
+	};
+}
+
+</script>
+</head>
+<body>
+	<h2>视图模型SQL语句编辑</h2>
+	SQL ID：
+	<input type="text" id="txt_smid" value="<%=smid %>" />
+	<input type="button" value="提取" onclick="showSql()">
+	<input type="button" value="保存" onclick="updateSql()">
+	<br> 备注：
+	<input type="text" id="txt_note" size="120" />
+	<br> SQL 语句：
+	<br>
+	<textarea rows="30" cols="120" id="txt_sqlstr"></textarea>
+</body>
+</html>
+

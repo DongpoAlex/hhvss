@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<title>例子</title>
+<style>
+ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px/1.5 Arial;
+	color: #666;
+}
+
+#box {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	border: 2px solid #000;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#box ul {
+	list-style-position: inside;
+	margin: 10px;
+}
+
+#box div {
+	position: absolute;
+	width: 100%;
+}
+
+#top,#bottom {
+	color: #FFF;
+	height: 100%;
+	overflow: hidden;
+}
+
+#top {
+	background: green;
+}
+
+#bottom {
+	background: blue;
+	top: 50%
+}
+
+#line {
+	top: 50%;
+	height: 4px;
+	overflow: hidden;
+	margin-top: -2px;
+	background: red;
+	cursor: n-resize;
+}
+</style>
+
+<style>
+.errorTip {
+	background-image: url(../img/access_disallow.gif);
+	background-repeat: no-repeat;
+	padding-left: 16px;
+}
+
+.errorInput {
+	background-color: #FFCC33;
+}
+
+.validTip {
+	background-image: url(../img/access_allow.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding: 2px;
+}
+</style>
+
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.validator.js"></script>
+<script type="text/javascript">
+	/**
+	 function $(id) {
+	 return document.getElementById(id)	
+	 }
+	 window.onload = function() {
+	 var oBox = $("box"), oBottom = $("bottom"), oLine = $("line");
+	 oLine.onmousedown = function(e) {
+	 var disY = (e || event).clientY;
+	 oLine.top = oLine.offsetTop;
+	 document.onmousemove = function(e) {
+	 var iT = oLine.top + ((e || event).clientY - disY);
+	 var maxT = oBox.clientHeight - oLine.offsetHeight;
+	 oLine.style.margin = 0;
+	 iT < 0 && (iT = 0);
+	 iT > maxT && (iT = maxT);
+	 oLine.style.top = oBottom.style.top = iT + "px";
+	 return false
+	 };	
+	 document.onmouseup = function() {
+	 document.onmousemove = null;
+	 document.onmouseup = null;	
+	 oLine.releaseCapture && oLine.releaseCapture()
+	 };
+	 oLine.setCapture && oLine.setCapture();
+	 return false
+	 };
+	 };
+	 */
+
+	$(document).ready(function(){
+	 //$('#myform2').draggable();
+	 var a = $('#myform2').checkInput($('#commit'),abc);
+
+	 //淡入
+	 $('#top').hide();
+	 $('#top').fadeIn(5000);
+	 $('#bottom').hide();
+	 $('#bottom').slideDown(2000);
+	});
+
+	function abc(isValid){
+		alert(isValid);
+	}
+</script>
+</head>
+<body>
+	<div id="myform2">
+		<input type="text" require="true" datatype="email" msg="电子邮件地址要合法"><br></br>
+		<input type="text" require="true" datatype="range" msg="电子邮件地址要合法2"><br></br>
+		<input type="text" require="true" datatype="email" msg="电子邮件地址要合法3"><br></br>
+
+	</div>
+
+	<button type="button" id="commit" value="提交">提交</button>
+	<center>上下拖动红条改变显示区域高度</center>
+	<div id="box">
+		<div id="top">
+			<ul>
+				<li>西安一大厦发生爆炸7人遇难31人受伤</li>
+				<li>意大利经济学家蒙蒂出任过渡政府总理</li>
+				<li>天宫神八今晚分离后再对接 全程需半小时</li>
+				<li>吉林骗子承包厨子施工铁路桥墩将爆破拆除</li>
+				<li>胡锦涛：人民币升值无法解决美国问题</li>
+				<li>红会否认通过民政部门索捐 称按工龄捐款属谣言</li>
+				<li>昆明警车拒绝救助临产孕妇 市民称警察当时在玩游戏</li>
+				<li>网帖称贫困县人社局80名员工公款赴港澳旅游</li>
+				<li>西安一大厦发生爆炸7人遇难31人受伤</li>
+				<li>意大利经济学家蒙蒂出任过渡政府总理</li>
+				<li>天宫神八今晚分离后再对接 全程需半小时</li>
+				<li>吉林骗子承包厨子施工铁路桥墩将爆破拆除</li>
+				<li>胡锦涛：人民币升值无法解决美国问题</li>
+				<li>红会否认通过民政部门索捐 称按工龄捐款属谣言</li>
+				<li>昆明警车拒绝救助临产孕妇 市民称警察当时在玩游戏</li>
+				<li>网帖称贫困县人社局80名员工公款赴港澳旅游</li>
+			</ul>
+		</div>
+		<div id="bottom">
+			<ul>
+				<li>京沪高铁因质量问题被召回动车拟16日恢复运营</li>
+				<li>黑龙江穆棱河污染致数万人饮水难近10年</li>
+				<li>湖南政府采购买高不买低 琴行老板揭招标内幕</li>
+				<li>云南师宗矿难副矿长承认用煤灰抹脸假装逃生</li>
+				<li>中介操控卵子黑市 北大清华女生卖卵可得数万元</li>
+				<li>云南一村庄户籍"不存在" 村民身份不明四处碰壁</li>
+				<li>河北燕郊数千人陷传销 称发展下线可获利百万</li>
+				<li>国际原子能机构出示图片证明伊朗研发核武器</li>
+				<li>京沪高铁因质量问题被召回动车拟16日恢复运营</li>
+				<li>黑龙江穆棱河污染致数万人饮水难近10年</li>
+				<li>湖南政府采购买高不买低 琴行老板揭招标内幕</li>
+				<li>云南师宗矿难副矿长承认用煤灰抹脸假装逃生</li>
+				<li>中介操控卵子黑市 北大清华女生卖卵可得数万元</li>
+				<li>云南一村庄户籍"不存在" 村民身份不明四处碰壁</li>
+				<li>河北燕郊数千人陷传销 称发展下线可获利百万</li>
+				<li>国际原子能机构出示图片证明伊朗研发核武器</li>
+			</ul>
+		</div>
+		<div id="line"></div>
+	</div>
+</body>
+</html>

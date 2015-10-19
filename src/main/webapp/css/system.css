@@ -1,0 +1,46 @@
+@import url("first.css");
+
+TABLE {
+	border: 1px solid gray;
+}
+
+td {
+	cellspacing: 2;
+	cellmargin: 2;
+	text-align: left;
+}
+
+th {
+	color: navy;
+	border-width: 1;
+	background-color: silver;
+}
+
+tr.deeper {
+	background-color: #EEEEFF;
+}
+
+tr.lighter {
+	background-color: #EEFFEE;
+}
+
+tr.pink {
+	background-color: #FFEEFF;
+}
+
+.info {
+	margin: 4px;
+}
+
+.info label {
+	font-weight: bold;
+}
+
+.check INPUT {
+	height: 30px;
+	width: 30px;
+}
+
+TD.check {
+	text-align: center;
+}
