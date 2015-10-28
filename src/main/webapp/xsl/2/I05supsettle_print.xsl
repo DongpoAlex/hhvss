@@ -23,6 +23,7 @@
 		<xsl:for-each select="body5">
 			<xsl:call-template name="output_body5" />
 		</xsl:for-each>
+		<hr></hr>
 		<xsl:for-each select="body6">
 			<xsl:call-template name="output_body6"/>
 		</xsl:for-each>
