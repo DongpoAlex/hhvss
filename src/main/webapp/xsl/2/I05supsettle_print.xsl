@@ -23,6 +23,10 @@
 		<xsl:for-each select="body5">
 			<xsl:call-template name="output_body5" />
 		</xsl:for-each>
+		<xsl:for-each select="body6">
+			<xsl:call-template name="output_body6"/>
+		</xsl:for-each>
+		<hr></hr>
 	</xsl:template>
 
 	<xsl:template name="output_head">
@@ -423,5 +427,71 @@
 			</tr>
 		</table>
 	</xsl:template>
+	<xsl:template name="output_body6">
+		<table width="99%" cellspacing="0" cellpadding="2" border="1">
+			<caption>
+				<h3>回执单</h3>
+			</caption>
+			<xsl:for-each select="/xdoc/xout/sheet/head/row">
+				<tr center="left">
+					<td>供应商:[
+						<xsl:value-of select="supid"/>
+						]
+						<xsl:value-of select="c5"/>
+					</td>
+					<td>结算单号:</td>
+					<td>
+						<xsl:value-of select="billno"/>
+					</td>
+					<td>结算方式:</td>
+					<td>
+						<xsl:value-of select="n25"/>
+					</td>
+					<td>结算地点：</td>
+					<td>
+						<xsl:value-of select="mrid"/>
+						<xsl:value-of select="mridname"/>
+					</td>
+				</tr>
+			</xsl:for-each>
+			<tr>
+				<th colspan="2" >费用课别</th>
+				<th>费用代码</th>
+				<th colspan="2">费用名称</th>
+				<th>扣项类型</th>
+				<th>费用金额</th>
+			</tr>
+			<xsl:for-each select="row">
+				<tr>
+					<td colspan="2">
+						<xsl:value-of select="maid"/>
+					</td>
+					<td>
+						<xsl:value-of select="chargeid"/>
+					</td>
+					<td colspan="2">
+						<xsl:value-of select="chargename"/>
+					</td>
+					<td>
+						<xsl:value-of select="chargetype"/>
+					</td>
+					<td>
+						<xsl:value-of select="format-number(money,'#0.00')"/>
+					</td>
+				</tr>
+			</xsl:for-each>
+			<tr>
+				<td>合计</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<xsl:value-of select="format-number(sum(row/money),'#0.00')"/>
+				</td>
 
+			</tr>
+		</table>
+	</xsl:template>
 </xsl:stylesheet>
